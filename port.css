@@ -317,7 +317,6 @@ footer{
         height: 50vh;
         border-radius: 25%;
         object-fit: cover;
-        border: 1px solid black;
         margin-bottom: 120px;
     }
     .harold{
@@ -414,13 +413,14 @@ footer{
     }
 
     .main-img{
-        height: 120vh;
-        height: 90vh;
+        width: 100%;
+        height: 95vh;
+        padding-left: 15%;
     }
 
     .main-img .harold{
-        width: 100%;
-        height: 90vh;
+        width: 120vh;
+        height: 95vh;
        /* border:  1px solid rgb(15, 14, 14);*/
     }
 
