@@ -129,7 +129,13 @@ section{
     border-radius: 75%;
     object-fit: cover;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+    transition: .55s ease ;
     
+}
+.harold:hover{
+   border: 2px solid crimson;
+   transform: translateX(8px);
+   box-shadow: 0px 0px 10px rgba(219, 58, 58, 0.897); 
 }
 .Projects{
     width: 100%;
@@ -268,6 +274,8 @@ footer{
     .harold{
         border: 1px solid silver;
         object-fit: cover;
+        width: 100%;
+        height: 50vh;
     }
     .Projects h3{
         text-align: center;
@@ -304,17 +312,20 @@ footer{
         font-weight: 500;
     }
     .main-img{
-        width: 50%;
+        width: 100%;
         margin-left: 0;
-        height: 50%;
+        height: 50vh;
         border-radius: 25%;
         object-fit: cover;
         border: 1px solid black;
+        margin-bottom: 120px;
     }
     .harold{
         border: 1px solid silver;
+        object-fit: cover;
+        width: 90%;
+        height: 50vh;
     }
-
     .Projects{
    
      height: 65vh;
