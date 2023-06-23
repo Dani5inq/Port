@@ -98,22 +98,7 @@ section{
     margin: 15px 0;
     font-size: 18px;
 }
-.days{
-    text-decoration: underline;
-    transition: 1s ease-in-out;
-    cursor: pointer;
-    color: rgb(248, 167, 109);
-    border: 1px solid silver;
-    font-weight: 700;
-    
-}
-.days:hover{
-    letter-spacing: 30px;
-    color: crimson;
-    text-decoration: none;
-    border: 1px solid silver;
-    padding: 2%;
-}
+
 
 .main-img{
     width: 30%;
